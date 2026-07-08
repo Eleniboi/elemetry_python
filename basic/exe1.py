@@ -31,6 +31,7 @@ b = "Your Age"
 
 interger = int(5)
 string = str("this is for string")
+
 Y = float(4.4)
 Z = float(4.4)
 
@@ -43,4 +44,12 @@ us = 5
 ustr = "string in python"
 print(type(us))
 print(type(ustr))
+
+
+def addition(num1, num2):
+    run = num1 + num2
+
+    return run
+
+print(addition(11,10))
 

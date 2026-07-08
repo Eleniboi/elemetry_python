@@ -5,8 +5,12 @@ import (
 	"fmt"
 )
 
+func addition(num1, num2 int) int {
+
+	return num1 + num2
+}
 
 func main() {
 
-	fmt.Println("samuel is", 19, "years old")
+	fmt.Println(addition(5,5))
 }
