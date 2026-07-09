@@ -19,7 +19,7 @@ if 10 > 5:
 # OUTPUT
 # the print function prints output with a new line at default
 # if you want content to be on same line u use the end paremeter it is advisible to use it with space like this end=" " for readability
-print("samuel you are\n\n\n\n\n\n\n", end=" ")
+print("samuel you are", end=" ")
 print("a great man", 19)
 
 # VARIABLE
