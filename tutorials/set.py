@@ -15,7 +15,7 @@ print(unique_friends)
 
 
 
-#the add() function is used add more content to the set after declaration
+#the .add() function is used add more content to the set after declaration
 
 unique_friends.add("john")
 
@@ -24,6 +24,14 @@ print(unique_friends)#OUTPUT:  {'omafu', 'james', 'samuel', 'lolo', 'john'}
 if len(unique_friends) != 6:
     unique_friends.add("destiny")
 print(unique_friends)
+
+# the .update method is use to unpack iterables into a set
+
+children = {"mimi"}
+
+children.update(["job", "abra", "max"])
+
+print(children)
 
 
 
@@ -37,8 +45,7 @@ union = first | second | third #the union take place here, remember set don't ta
 
 print(union)
 
-# to get the interception of two or more sets use the '&' sign between them
-#
+# to get the Intersection of two or more sets use the '&' sign between them, it keeps only the items that appeals in all the sets
 
-intercept = first & second
-print(intercept)
+Intersect = first & second
+print(Intersect)
