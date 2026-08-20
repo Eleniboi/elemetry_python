@@ -30,4 +30,5 @@ details("john", 30, "engineer")
 #keyword argument
 #       |
 details(age=30,  job= "engineer", name="john")
+print(details)
 #Arbitral argument
