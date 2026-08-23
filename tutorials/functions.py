@@ -73,4 +73,23 @@ print(profile)
 
 ## variable scope
 # Local scope: variable declared in a particular block of code is called a local variable it can only be used and accessed in that block
-#
+# Global scope: variable declare outside a block of code or a function is a global variable
+
+x = 20 # Global variable
+
+def add(x, y):
+    x = 10 # local variable
+    y = 30 # local variable
+
+    return x + y
+
+
+#Lambda functions: are single line anonymous function, which is use to execute tempral
+
+division = lambda x, y: x / y 
+
+print(division(4, 2))
+
+
+is_even = lambda x: "even" if x % 2 == 0 else "odd"
+print(is_even(5)) #odd
