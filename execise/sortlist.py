@@ -1,5 +1,4 @@
-## 
-
+## before writing the sort_list function, we need a helper function smallest_item function that will pick the smallest number in a list
 def smallest_Item(arr):
 
     smallest = arr[0]
