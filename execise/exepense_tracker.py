@@ -40,12 +40,12 @@ def Howell_Exp():
             
             total_expenses = (total_expenses +  amount_used)
 
-            Receipt = input("would you like to print recipt? yes/no : ")
+            Receipt = input("would you like to print recipt? yes/no : ").lower()
             print()
 
             ## Receipt generator
 
-            if Receipt == "yes".lower():
+            if Receipt == "yes":
 
                 print("     ****RECIEPT****   ")
                 print(f"{'Item':<12}      {'Price':>3}")

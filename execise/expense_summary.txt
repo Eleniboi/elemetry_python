@@ -1,0 +1,4 @@
+=== EXPENSE SUMMARY REPORT === 
+Total Valid Rows Processed: 7
+Total Skipped Rows (Errors): 3
+Total Money Spent: 176.90

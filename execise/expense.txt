@@ -1,0 +1,11 @@
+Lunch,15.50
+Fan,food
+Transport,4.00
+Coffee,abc
+Office Supplies,22.10
+Dinner,0
+Software Subscription,45.00
+
+Bonce,50
+Rent,money
+Goat,40.3
