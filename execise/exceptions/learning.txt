@@ -1,0 +1,5 @@
+I am learning Python.
+I am learning file handling.
+I am learning exception handling.
+I am learning to write code.
+I am learning to write code.
