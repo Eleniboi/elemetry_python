@@ -1,0 +1,14 @@
+# to access a file path in python use the build-in pathlib module it provide many methods for perform different file task
+
+from pathlib import Path
+
+
+folder = Path("tutorials") # it create a path
+
+full_path = folder / "loop.py"
+
+# .exist() method return true if a file or folder exist on your computer and it return false if they don't exist
+
+print(full_path.exists())
+
+print(full_path) 
