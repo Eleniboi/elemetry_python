@@ -38,3 +38,31 @@ user = Bank("samuel")
 user.withdraw(5000)#Insulficient balance!!
 user.deposit(10000)
 user.withdraw(5000)# withdrawal of 5000 was successful
+
+
+
+## inheritance the ability of a child class to use attribute and method in a parent class 
+class DogBreed:
+
+    def __init__(self, breed):
+
+        self.breed = breed 
+
+# while define the child class the parent class goes into the parenthesis ()
+class DogDetails(DogBreed):
+
+    def __init__(self, name, age, breed="Garman shephard"):
+
+        super().__init__(breed)
+        self.name = name
+        self.age = age 
+
+
+    def details(self):
+
+
+        return f"{self.name} is {self.age} years old it a {self.breed}"
+
+dog1 = DogDetails("twilla", 4)
+
+print(dog1.details())
