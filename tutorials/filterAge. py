@@ -1,0 +1,11 @@
+ages = [14, 22, 17, 35, 19, 42, 16]
+
+status_list = [f"Minor: '{n}'" if n < 18 else f"Adult: {n}" for n in ages]
+
+#ages = [14, 22, 17, 35, 19, 42, 16]
+
+# Write your one-liner here:
+
+
+print(status_list)
+# Expected Output: ['Minor', 'Adult', 'Minor', 'Adult', 'Adult', 'Adult', 'Minor']
