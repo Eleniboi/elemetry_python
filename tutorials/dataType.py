@@ -69,3 +69,41 @@ for key, value in nigerian_states.items():
 
     states.append(key)
     capitals.append(value)
+    
+state_populations = {
+    "Kano": 15.0,
+    "Lagos": 16.5,
+    "Anambra": 5.5,
+    "Oyo": 8.0,
+    "Borneo": 6.0,
+    "Rivers": 7.5,
+    "Kaduna": 9.5
+}
+
+# Task 1: Basic Loop & Formatting (Perfect!)
+for state, population in state_populations.items():
+    print(f"The population of {state} is {population} million.")
+
+print("-" * 30)
+
+# Task 2: Conditional Filtering (Awesome List Comprehension!)
+states = [state for state, population in state_populations.items() if population > 8.0]
+print("States over 8 million:", states)
+
+print("-" * 30)
+
+# Task 3: The Geopolitical Zone Dictionary (Fixed Lookup)
+state_zones = {
+    "Kano": "North West",
+    "Kaduna": "North West",
+    "Lagos" : "South West",
+    "Oyo" : "South West",
+    "Anambra" : "South East",
+    "Borneo" : "North East",
+    "Rivers" : "South South"
+}
+
+for state, population in state_populations.items():
+    # Look up the specific zone for the current state
+    zone = state_zones[state] 
+    print(f"{state} is in the {zone} zone and has {population} million people.")
