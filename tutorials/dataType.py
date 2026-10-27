@@ -69,7 +69,7 @@ for key, value in nigerian_states.items():
 
     states.append(key)
     capitals.append(value)
-    
+
 state_populations = {
     "Kano": 15.0,
     "Lagos": 16.5,
@@ -84,13 +84,13 @@ state_populations = {
 for state, population in state_populations.items():
     print(f"The population of {state} is {population} million.")
 
-print("-" * 30)
+print("==" *4 ,"*" * 30 , "==" *4 )
 
 # Task 2: Conditional Filtering (Awesome List Comprehension!)
 states = [state for state, population in state_populations.items() if population > 8.0]
 print("States over 8 million:", states)
 
-print("-" * 30)
+print("==" *4 ,"*" * 30 , "==" *4 )
 
 # Task 3: The Geopolitical Zone Dictionary (Fixed Lookup)
 state_zones = {
